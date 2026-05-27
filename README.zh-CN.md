@@ -9,9 +9,9 @@
   <a href="https://github.com/guo2001china/mycodex/discussions"><img alt="Discussions" src="https://img.shields.io/badge/discussions-open-2ea44f"></a>
 </p>
 
-MyCodex 把 Codex + Hermes 变成一个普通人能直接用的桌面 AI 工作台：调研、销售线索、竞品监控、运营报告、文件产出、后续跟进，都放在一个项目里。
+MyCodex 把 Codex + Hermes 变成普通人能直接上手的桌面 AI 工作台：调研、销售线索、竞品监控、运营报告、文件产出、后续跟进，都能在一个项目里搞定。
 
-不用先研究命令行、Token、模型路由和环境变量。打开应用，登录，说清楚要做什么，MyCodex 会保留任务、过程、结果和文件。
+不用先啃命令行、Token、模型路由和环境变量。打开应用、登录账号、说清需求，MyCodex 就会帮你完整保留任务、执行过程、最终结果和生成文件。
 
 <p align="center">
   <img src="assets/screenshots/mycodex-home.jpg" alt="MyCodex 桌面工作台" width="900">
@@ -31,40 +31,42 @@ MyCodex 把 Codex + Hermes 变成一个普通人能直接用的桌面 AI 工作�
 
 ## 下载
 
-| 平台 | 推荐文件 | 说明 |
+| 平台 | 推荐文件 |  适用场景 |
 | --- | --- | --- |
-| macOS Apple Silicon | [`MyCodex-0.9.7-mac-arm64.dmg`](https://github.com/guo2001china/mycodex/releases/download/v0.9.7/MyCodex-0.9.7-mac-arm64.dmg) | M 系列 Mac |
-| macOS Intel | [`MyCodex-0.9.7-mac-x64.dmg`](https://github.com/guo2001china/mycodex/releases/download/v0.9.7/MyCodex-0.9.7-mac-x64.dmg) | Intel Mac |
-| Windows x64 | [`MyCodex-0.9.0-win-x64.zip`](https://github.com/guo2001china/mycodex/releases/tag/v0.9.0) | 历史包；Windows 0.9.7 等待 runtime 构建刷新 |
+| macOS Apple Silicon | [`MyCodex-0.9.7-mac-arm64.dmg`](https://github.com/guo2001china/mycodex/releases/download/v0.9.7/MyCodex-0.9.7-mac-arm64.dmg) | M1/M2/M3 系列芯片的 Mac 设备|
+| macOS Intel | [`MyCodex-0.9.7-mac-x64.dmg`](https://github.com/guo2001china/mycodex/releases/download/v0.9.7/MyCodex-0.9.7-mac-x64.dmg) | 搭载 Intel 处理器的 Mac 设备 |
+| Windows x64 | [`MyCodex-0.9.0-win-x64.zip`](https://github.com/guo2001china/mycodex/releases/tag/v0.9.0) | 历史稳定版本；v0.9.7 Windows 安装包正在适配 runtime，敬请期待|
 
-手动安装优先下载 DMG。Release 里的 ZIP 主要给桌面自动更新使用。
+安装提示：手动安装优先下载 .dmg 格式文件；Release 中的 .zip 包主要用于桌面端自动更新，不建议直接用于首次安装。
 
-## 价值
+## 核心价值
 
 很多 AI Agent 工具的问题不是能力不够，而是用户还没跑出第一件有用的事，就被 API Key、命令行、模型配置、文件散落和上下文丢失挡住了。
 
 MyCodex 把一件工作放回同一个地方：
 
 - 你发出的任务
-- 使用的模型和项目
+- 任务关联的模型与项目信息
 - Agent 的执行过程
-- 生成的文件和预览
+- 生成的文件、预览与附件
 - 后续追问
-- 离开电脑后的微信接力
+- 离开电脑后的微信接力执行
 
-核心价值很直接：少配置、少切换、少丢上下文。
+核心价值很直接：少配置、少切换、不丢上下文，让你把时间花在真正的工作上，而不是折腾工具。
 
 ## 能做什么
 
 | 场景 | MyCodex 帮你做什么 |
 | --- | --- |
-| 销售线索 | 收集公开信息、整理客户背景、生成跟进表 |
-| 竞品监控 | 查看页面变化，把观察整理成可复查的记录 |
-| 运营报告 | 把零散资料整理成周报、活动复盘、指标说明 |
-| 内容调研 | 收集来源、归纳主题、生成可复用大纲 |
-| 文件工作 | 生成 Markdown、CSV、HTML、JSON、图片、PDF，并在应用里预览 |
-| 浏览器任务 | 通过桌面管理的浏览器桥接处理需要真实页面交互的流程 |
-| 微信接力 | 离开电脑后继续发任务、收文件 |
+| 销售线索 |自动收集公开信息、整理客户背景资料、生成可复用的跟进表|
+| 竞品监控 | 定时跟踪目标页面变化，自动整理成可复查的结构化记录 |
+| 运营报告 | 把零散的运营数据、素材，一键整理成周报、活动复盘、指标说明文档 |
+| 内容调研 | 批量收集信息来源、归纳核心主题、生成可复用的调研大纲 |
+| 文件工作 | 生成 Markdown、CSV、HTML、JSON、图片、PDF 等文件，并支持应用内直接预览 |
+| 浏览器任务 | 通过桌面管理的隐私浏览器桥接，处理需要真实页面交互的复杂流程 |
+| 微信接力 |离开电脑后，可通过微信继续发送任务、接收生成的文件与结果 |
+
+安装提示：手动安装优先下载 .dmg 格式文件；Release 中的 .zip 包主要用于桌面端自动更新，不建议直接用于首次安装。
 
 ## v0.9.7
 
@@ -130,12 +132,12 @@ Markdown、CSV、HTML、JSON、日志、图片、PDF 等结果可以先预览，
 
 MyCodex 还在早期。最有价值的反馈是具体的：你想完成什么工作，卡在哪一步，希望最后得到什么结果。
 
-- [安装问题](https://github.com/guo2001china/mycodex/issues/new?template=installation_help.yml)
-- [Bug 反馈](https://github.com/guo2001china/mycodex/issues/new?template=bug_report.yml)
-- [功能建议](https://github.com/guo2001china/mycodex/issues/new?template=feature_request.yml)
-- [模型接入需求](https://github.com/guo2001china/mycodex/issues/new?template=model_provider.yml)
-- [Roadmap issues](https://github.com/guo2001china/mycodex/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap)
-- [Discussions](https://github.com/guo2001china/mycodex/discussions)
+- [提交安装问题](https://github.com/guo2001china/mycodex/issues/new?template=installation_help.yml)
+- [提交 Bug 反馈](https://github.com/guo2001china/mycodex/issues/new?template=bug_report.yml)
+- [提交功能建议](https://github.com/guo2001china/mycodex/issues/new?template=feature_request.yml)
+- [提交模型接入需求](https://github.com/guo2001china/mycodex/issues/new?template=model_provider.yml)
+- [查看Roadmap issues](https://github.com/guo2001china/mycodex/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap)
+- [参与Discussions](https://github.com/guo2001china/mycodex/discussions)
 
 ## 当前状态
 
